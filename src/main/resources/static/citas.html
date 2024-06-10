@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Taller Bike</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="encabezado">
+            <h1> Saca tu cita Taller Cardenas Racing </h1>
+
+        </div>
+        <nav id="menu">
+            <a href="index.html">Principal</a><br>
+            <a href="Aceites.html">Aceites</a><br>
+            <a href="Llantas.html">Llantas</a><br>
+            <a href="afinacion.html">Afinacion</a><br>
+            <a href="citas.html">Citas</a><br>
+            <a href="mecanica.html">Mecanica</a><br>
+            <a href="pintura.html">Pintura</a><br>
+            <a href="repuestos.html">Repuestos</a><br>
+            <a href="tapiz.html">Tapiz</a><br>
+
+        </nav>
+
+
+
+
+        <section id="contenido3">
+            <h2>Saca tu cita</h2>
+            <br />
+            <form action="#">
+
+
+
+                <label>Dia mes año</label><input type="date" name="date" min="2022-01-01" max="2024-12-31"><br>
+                <label>Hora </label><input type="datetime-local" name="datetime-local"><br>
+                <label>Correo de confirmacion </label><input type="email" name="email" placeholder="Digite el email"><br>
+                <label>Lugar </label><input type="search" name="search" placeholder="criterio de busqueda"><br>
+                <label>tel </label><input type="tel" name="tel" placeholder="8888-8888"><br>
+                <label>Describe la tipo de reparacion  </label><input type="text" name="text" placeholder="" size="50"><br>
+                <p>Por favor deja tu calificacion</p>
+                <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                <output>24</output><br>
+                <br />
+                <label>checkbox </label> Terminos y condiciones <input type="checkbox" name="checkbox"><br>
+                <label>Enviar </label><input type="button" value="Enviar" id="button"><br>
+                <label>Cancelar </label><input type="reset" name="reset" value="Limpiar"><br>
+
+
+            </form>
+        </section>
+
+    </body>
+</html>
